@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className='m-2 border border-black rounded-2 p-2'>
-      <BrowserRouter basename='/browser-single-layout'>
+      <BrowserRouter basename='/browser-single-layout/'>
         <Routes>
           <Route
             element={
