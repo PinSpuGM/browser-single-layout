@@ -22,7 +22,7 @@ function App() {
               <AppLayout mainMenu={mainMenu} setMainMenu={setMainMenu} />
             }
           >
-            <Route index path='/home' element={<Home />} />
+            <Route path='/home' element={<Home />} />
             <Route path='/members' element={<Member />} />
             <Route path='/carts' element={<Carts />} />
             <Route path='/about' element={<About />} />
